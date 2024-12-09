@@ -37,6 +37,7 @@ button[type="submit"]:hover{
     display: flex;
     flex-direction: column;
     align-items: center;
+    border-radius: 5px;
 }
 h1{
     font-size: 3.5rem;
@@ -55,12 +56,13 @@ p{
 }
 .humidityDisplay{
     font-weight: bold;
-    margin-bottom: 25px;
+    margin-bottom: 10px;
 }
 .descDisplay{
     font-style: italic;
     font-weight: bold;
     font-size: 2rem;
+    margin-bottom: 0px;
 }
 .weatherEmoji{
     margin: 0;
